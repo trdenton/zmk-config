@@ -51,13 +51,14 @@
 // | SHFT | z | x |  c | v  | b   | CTRL | ALT | HOME | X | PGUP | SPR | CTRL | k   | m  | ,  | . | ? | SHFT
 // |      | ` | \ | <- | -> | BSP | DEL  | END |      | X |      | PDN | ENTR | SPC | UP | DN | [ | ] |
 
-                        bindings = <
-    &kp PLUS    &kp 1     &kp 2    &kp 3    &kp 4     &kp 5    &trans    &trans   &trans        &trans    &trans    &trans     &kp N6  &kp N7  &kp N8    &kp N9   &kp N0   &kp MINUS
-    &kp TAB     &kp Q     &kp W    &kp F    &kp P     &kp G    &trans    &trans   &trans        &trans    &trans    &trans     &kp J   &kp L   &kp U     &kp Y    &kp SEMI &kp BSLH 
-    &kp ESC     &kp A     &kp R    &kp S    &kp T     &kp D    &trans    &trans   &trans        &trans    &trans    &trans     &kp H   &kp N   &kp E     &kp I    &kp O    &kp SQT 
-    &kp LSHFT   &kp Z     &kp X    &kp C    &kp V     &kp B    &kp LCTRL &kp LALT &kp HOME      &kp PG_UP &kp LGUI  &kp RCTRL  &kp K   &kp M   &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-    &trans      &kp GRAVE &kp BSLH &kp LEFT &kp RIGHT &kp BSPC &kp DEL   &kp END  &trans        &trans    &kp PG_DN &kp ENT    &kp SPC &kp UP  &kp DOWN  &kp LBKT &kp RBKT &trans
-                        >;
+        bindings = <
+            &kp PLUS    &kp 1     &kp 2    &kp 3    &kp 4     &kp 5    &none     &none   &none        &none    &none    &none     &kp N6  &kp N7  &kp N8    &kp N9   &kp N0   &kp MINUS
+            &kp TAB     &kp Q     &kp W    &kp F    &kp P     &kp G    &none     &none   &none        &none    &none    &none     &kp J   &kp L   &kp U     &kp Y    &kp SEMI &kp BSLH
+            &kp ESC     &kp A     &kp R    &kp S    &kp T     &kp D    &none     &none   &none        &none    &none    &none     &kp H   &kp N   &kp E     &kp I    &kp O    &kp SQT
+            &kp LSHFT   &kp Z     &kp X    &kp C    &kp V     &kp B    &kp LCTRL &kp LALT &kp HOME    &kp PG_UP &kp LGUI  &kp RCTRL &kp K   &kp M   &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+            &none       &kp GRAVE &kp BSLH &kp LEFT &kp RIGHT &kp BSPC &kp DEL   &kp END  &none       &none    &kp PG_DN &kp ENT   &kp SPC &kp UP  &kp DOWN  &kp LBKT &kp RBKT &none
+        >;
+
                 };
         };
 };
