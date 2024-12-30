@@ -68,11 +68,11 @@
 // |      | ` | \ | <- | -> | BSP | DEL  | END |      | X |      | PDN | ENTR | SPC | UP | DN | [ | ] |
 
         bindings = <
-            &kp N0     &kp N1     &kp N2    &kp N3    &kp N4     &kp N5      &none &none &none &none &none &none                          &kp C   &kp D   &kp E     &kp F    &kp G &kp H
-            &kp I      &kp J      &kp K     &kp L     &kp M      &kp N      &none &none &none &none &none &none                           &kp U   &kp V   &kp W     &kp X    &kp Y &kp Z
-            &kp N0     &kp N1     &kp N2    &kp N3    &kp N4     &kp N5    &none &none &none &none &none &none                            &kp C   &kp D   &kp E     &kp F    &kp G &kp H
-            &kp I    &kp J     &kp K    &kp L    &kp M     &kp N    &kp O     &kp P   &kp Q        &kp R    &kp S    &kp T     &kp U  &kp V  &kp W    &kp X   &kp Y   &kp Z
-            &none      &kp N1     &kp N2    &kp N3    &kp N4     &kp N5    &kp N6     &kp N7       &none    &none      &kp A    &kp B     &kp C   &kp D   &kp E     &kp F    &kp G &none     
+            &kp PLUS   &kp N1     &kp N2    &kp N3    &kp N4     &kp N5    &kp N0     &kp N0    &kp N0   &kp N0 &kp N0 &kp N0     &kp I   &kp I   &kp I     &kp I    &kp I &kp I
+            &kp TAB    &kp Q      &kp W     &kp F     &kp P      &kp G     &kp N0     &kp N0    &kp N0   &kp N0 &kp N0 &kp N0     &kp I   &kp I   &kp I     &kp I    &kp I &kp I
+            &kp ESC    &kp A      &kp R     &kp S     &kp T      &kp D     &kp N0     &kp N0    &kp N0   &kp N0 &kp N0 &kp N0     &kp I   &kp I   &kp I     &kp I    &kp I &kp I
+            &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B     &kp LCTRL  &kp LALT  &kp HOME &kp I  &kp I  &kp I      &kp I   &kp I   &kp I     &kp I    &kp I &kp I
+            &kp N0     &kp GRAVE  &kp BLSH  &kp LEFT  &kp RIGHT  &kp BSPC  &kp DEL    &kp END   &kp N0   &kp N0 &kp I  &kp I      &kp I   &kp I   &kp I     &kp I    &kp I &kp N0     
         >;
 
                 };
