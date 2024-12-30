@@ -51,8 +51,8 @@
 		    , <&pro_micro 6 GPIO_ACTIVE_HIGH>
 		    , <&pro_micro 7 GPIO_ACTIVE_HIGH>
 		    , <&pro_micro 8 GPIO_ACTIVE_HIGH>
-		    , <&pro_micro 21 GPIO_ACTIVE_HIGH>
 		    , <&pro_micro 9  GPIO_ACTIVE_HIGH>
+		    , <&pro_micro 21 GPIO_ACTIVE_HIGH>
 		    ;
 		row-gpios
 		    = <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -68,10 +68,11 @@
 
                 default_layer {
 
+//  blue    r   y    w   blu  red   green  white  blue
 // | + 	  | 1 | 2 |  3 | 4  | 5   |      |     |      | X |      |     |      | 6   | 7  | 8  | 9 | 0 | -
 // | TAB  | q | w |  f | p  | g   |      |     |      | X |      |     |      | j   | l  | u  | y | ; | \
 // | ESC  | a | r |  s | t  | d   |      |     |      | X |      |     |      | h   | n  | e  | i | o | '
-// | SHFT | z | x |  c | v  | b   | CTRL | ALT | HOME | X | PGUP | SPR | CTRL | k   | m  | ,  | . | ? | SHFT
+// | SHFT | z | x |  c | v  | b   | CTRL | HOM | LALT | X | PGUP | SPR | CTRL | k   | m  | ,  | . | ? | SHFT
 // |      | ` | \ | <- | -> | BSP | DEL  | END |      | X |      | PDN | ENTR | SPC | UP | DN | [ | ] |
 
 //        bindings = <
@@ -83,10 +84,11 @@
       //  >;
 
         bindings = <
+//          blue       red        yellow    white     blue       red       green      white     blue
             &kp PLUS   &kp N1     &kp N2    &kp N3    &kp N4     &kp N5    &kp N6     &kp N6    &kp N6   
             &kp TAB    &kp Q      &kp W     &kp F     &kp P      &kp G     &kp N9     &kp N7    &kp N7  
             &kp ESC    &kp A      &kp R     &kp S     &kp T      &kp D     &kp N8     &kp N8    &kp N8 
-            &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B     &kp LCTRL  &kp LALT  &kp HOME
+            &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B     &kp LCTRL  &kp HOME  &kp LALT
             &kp N9     &kp GRAVE  &kp BSLH  &kp LEFT  &kp RIGHT  &kp BSPC  &kp DEL    &kp END   &kp N0
         >;
 
