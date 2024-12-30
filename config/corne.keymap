@@ -72,7 +72,7 @@
             &kp TAB    &kp Q      &kp W     &kp F     &kp P      &kp G     &kp N0     &kp N0    &kp N0   &kp N0 &kp N0 &kp N0     &kp I   &kp I   &kp I     &kp I    &kp I &kp I
             &kp ESC    &kp A      &kp R     &kp S     &kp T      &kp D     &kp N0     &kp N0    &kp N0   &kp N0 &kp N0 &kp N0     &kp I   &kp I   &kp I     &kp I    &kp I &kp I
             &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B     &kp LCTRL  &kp LALT  &kp HOME &kp I  &kp I  &kp I      &kp I   &kp I   &kp I     &kp I    &kp I &kp I
-            &kp N0     &kp GRAVE  &kp BLSH  &kp LEFT  &kp RIGHT  &kp BSPC  &kp DEL    &kp END   &kp N0   &kp N0 &kp I  &kp I      &kp I   &kp I   &kp I     &kp I    &kp I &kp N0     
+            &kp N0     &kp GRAVE  &kp BSLH  &kp LEFT  &kp RIGHT  &kp BSPC  &kp DEL    &kp END   &kp N0   &kp N0 &kp I  &kp I      &kp I   &kp I   &kp I     &kp I    &kp I &kp N0     
         >;
 
                 };
